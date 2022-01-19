@@ -1,0 +1,30 @@
+{
+  "name": "basic-http-class-example",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.13.2",
+    "npm": "8.3.1"
+  },
+  "description": "A basic HTTP server example",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjs8837/basic-http-class-example.git"
+  },
+  "author": "Mike Santos",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mjs8837/basic-http-class-example/issues"
+  },
+  "homepage": "https://github.com/mjs8837/basic-http-class-example#readme",
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
